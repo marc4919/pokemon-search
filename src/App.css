@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+header{
+  height: 150px;
+  background-color: red;
+  border-bottom: black 5px solid;
+}
+
+nav{
+  border-bottom: black 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+#pokemonLogo{
+  margin-top: 28px;
+  height: 100px;
+}
+
+#pokeSprite{
+  margin-top: 50px;
+  height: 300px;
+  border: 0.5px solid black;
+  border-radius: 50px;
+  box-shadow: 0 0 0 1px black;
+}
+
+#botonLupa{
+  height: 55px
+}
+
+#errorBusqueda{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
